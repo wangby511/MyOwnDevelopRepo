@@ -1,18 +1,8 @@
-import requests
-import json
-
 import datetime
 import matplotlib.pyplot as plt
 N = 162
-# import datetime
-# from datetime import datetime,timedelta
-# import sys
-# import os
-# from urllib.request import Request
-# from urllib.request import urlopen
-# from urllib.error import URLError
-# url = "https://jsonmock.hackerrank.com/api/movies/search?Title=spiderman&page="
-# list = []
+
+
 IndexString = "All My Submissions"
 startString = "Language"
 endString = "</tbody>"
@@ -172,9 +162,43 @@ plt.show()
 # with open('results.json', 'w') as result_file:
 #     json.dump(results, result_file)
 
-# print(f.read())
+# /usr/local/bin/python3 /Users/wangboyuan/PycharmProjects/20190325TEST/leetcode.py
+# total submissions = 3227
+# accepted submissions = 1829
+# leetcode_q_cnt = 50  , Time = 2017-04-29 18:00:00
+# leetcode_q_cnt = 100  , Time = 2017-05-29 18:00:00
+# leetcode_q_cnt = 150  , Time = 2017-07-28 18:00:00
+# leetcode_q_cnt = 200  , Time = 2017-09-26 18:00:00
+# leetcode_q_cnt = 250  , Time = 2017-10-26 18:00:00
+# leetcode_q_cnt = 300  , Time = 2017-10-26 18:00:00
+# leetcode_q_cnt = 350  , Time = 2017-12-25 18:00:00
+# leetcode_q_cnt = 400  , Time = 2018-01-24 18:00:00
+# leetcode_q_cnt = 450  , Time = 2018-05-29 18:00:00
+# leetcode_q_cnt = 500  , Time = 2018-07-21 18:00:00
+# leetcode_q_cnt = 550  , Time = 2018-08-13 18:00:00
+# leetcode_q_cnt = 600  , Time = 2018-09-19 18:00:00
+# leetcode_q_cnt = 650  , Time = 2018-10-12 18:00:00
+# leetcode_q_cnt = 700  , Time = 2018-11-11 18:00:00
+# leetcode_q_cnt = 750  , Time = 2019-02-16 18:00:00
+# Total Done in Algorithms : 785
+# leetcode_q_cnt = 785
+# Process finished with exit code 0
+
+
+
+# import requests
+# import json
+
+# # import sys
+# # import os
+# # from urllib.request import Request
+# # from urllib.request import urlopen
+# # from urllib.error import URLError
+
+# url = "https://jsonmock.hackerrank.com/api/movies/search?Title=spiderman&page="
+# list = []
 # for i in range(10):
-#     URL = url + t(i + 1)
+#     URL = url + str(i + 1)
 #     response = requests.get(URL,params = {},headers = [])
 #     json_response = response.json()
 #     data = json_response['data']
@@ -185,6 +209,3 @@ plt.show()
 # list.sort()
 # for title in list:
 #     print (title)
-# response = requests.get(URL,params = {},headers = [])
-# json_response = response.json()
-# print(response.content)
