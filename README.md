@@ -1,1 +1,4 @@
-# LEETCODE
+#
+1. leetcode 1 to 787 时间累积图 (python)
+2. smart pointer 实现(C++)
+3. ScheduledExecutorService(task, delay, UNIT) 实现 (JAVA)
