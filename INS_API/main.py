@@ -6,6 +6,7 @@ from instagram.client import InstagramAPI
 # recent_media, next_ = api.user_recent_media(user_id="userid", count=10)
 # for media in recent_media:
 #    print (media.caption.text)
+import sys
 import instaloader
 import json
 import requests
@@ -54,7 +55,15 @@ myInsLoader.login(USER, PASSWORD)
 # # Obtain profile metadata
 myProfile = instaloader.Profile.from_username(myInsLoader.context, USER)
 
-print("FOR INS ACCOUNT: ",USER)
+for story in myInsLoader.get_stories():
+    # story is a Story object
+    for item in story.get_items():
+        print(item.owner_username)
+        myInsLoader.download_storyitem(item, item.owner_username)
+        date_str = str(item.date_utc.year) + '-' + str(item.date_utc.month) + '-' + str(item.date_utc.day)
+
+print("Ins account for this myInsLoader: ",myInsLoader.test_login())
+exit(0)
 
 f_followee = open(now_time_str + '_followees_list.txt','w')
 # # Print list of followees
