@@ -1,10 +1,8 @@
 #
-1. leetcode 1 to 787 时间累积图 (python)
-2. smart pointer 实现 (C++)
-3. ScheduledExecutorService(task, delay, UNIT) 实现 (JAVA)
-4. Round Robin Algorithm (Akuna Capital Phone Interview) 2017/11/15 (C++)
-5. Quick sort algorithm and heapSort algorithm 2019/07/04 (C++)
-6. LEETCODE 2019/10/12 (C++)
-7. Trie 2019/10/19
+1. leetcode from 1 to 787 (python)
+3. ScheduledExecutorService(task, delay, UNIT) (JAVA)
+4. Round Robin Algorithm (Akuna Capital Phone Interview) (C++)
+6. LEETCODE 2019/10/12 (bit state machine) (C++)
 8. KMP Substring
-9. InstagramAPI instaloader 下载好友的快拍视频或照片 2020-03-01
+9. InstagramAPI instaloader 2020-03-01 including lists of followers and followees
+10. OA in USC 
